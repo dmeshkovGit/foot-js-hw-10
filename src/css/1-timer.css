@@ -40,22 +40,22 @@
 
 .start-button {
   padding: 8px 16px;
-  color: #989898;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
   border-radius: 8px;
+  background: #4e75ff;
+  border: 1px solid #4e75ff;
+}
+.start-button:disabled {
+  color: #989898;
   background: #cfcfcf;
   border: 1px solid #cfcfcf;
 }
-.is-active {
-  color: #fff;
-  background: #4e75ff;
-  border-color: #4e75ff;
-}
-.is-active:hover,
-.is-active:focus {
+.start-button:hover:enabled,
+.start-button:focus:enabled {
   background: #6c8cff;
   border-color: #6c8cff;
 }
