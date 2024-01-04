@@ -41,7 +41,7 @@ iziToast.error({
     titleSize:"16px",
     titleLineHeight: "24px",
     timeout: 5000,
-    iconUrl: "../img/error-icon.svg",
+    iconUrl: "./img/error-icon.svg",
     theme: "dark",
 });
 };

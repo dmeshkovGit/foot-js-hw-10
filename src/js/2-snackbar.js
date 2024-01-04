@@ -15,7 +15,7 @@ iziToast.error({
     titleSize:"16px",
     titleLineHeight: "24px",
     timeout: 5000,
-    iconUrl: "../img/error-icon.svg",
+    iconUrl: "./img/error-icon.svg",
     theme: "dark",
 });
 }
@@ -34,7 +34,7 @@ function getSuccess(successText) {
     titleSize:"16px",
     titleLineHeight: "24px",
     timeout: 5000,
-    iconUrl: "../img/success-icon.svg",
+    iconUrl: "./img/success-icon.svg",
     theme: "dark",
     })
 }
